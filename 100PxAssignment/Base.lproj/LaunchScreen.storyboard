@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kevin-wolf-METhgKHfWkk-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YC-g7Y">
+                                <rect key="frame" x="0.0" y="1" width="415" height="895"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O2One Assignment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrR-kv-ZNe">
+                                <rect key="frame" x="20" y="71" width="374" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Madhur Jain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aek-xq-Emp">
+                                <rect key="frame" x="270" y="840.5" width="124" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aVv-YC-g7Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="0.5" id="D4r-U1-BLm"/>
+                            <constraint firstItem="GrR-kv-ZNe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="KCQ-vj-cFQ"/>
+                            <constraint firstItem="GrR-kv-ZNe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Nb9-FG-mGt"/>
+                            <constraint firstItem="aVv-YC-g7Y" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="0.5" id="OJS-75-znS"/>
+                            <constraint firstAttribute="bottom" secondItem="aek-xq-Emp" secondAttribute="bottom" constant="31.5" id="Zs0-en-C7E"/>
+                            <constraint firstItem="aek-xq-Emp" firstAttribute="top" secondItem="GrR-kv-ZNe" secondAttribute="bottom" constant="746" id="a5Q-VS-1Ft"/>
+                            <constraint firstItem="aVv-YC-g7Y" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="0.5" id="fQh-BH-n6h"/>
+                            <constraint firstAttribute="bottom" secondItem="aVv-YC-g7Y" secondAttribute="bottom" constant="0.5" id="jlr-Hy-JdS"/>
+                            <constraint firstItem="aek-xq-Emp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="270" id="p3j-zf-4hd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aek-xq-Emp" secondAttribute="trailing" constant="20" id="p5N-Cc-QbX"/>
+                            <constraint firstItem="aek-xq-Emp" firstAttribute="top" secondItem="GrR-kv-ZNe" secondAttribute="bottom" constant="746" id="qJq-It-9hg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GrR-kv-ZNe" secondAttribute="trailing" constant="20" id="xLP-eN-BfI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kevin-wolf-METhgKHfWkk-unsplash" width="2568" height="3210"/>
+    </resources>
+</document>
